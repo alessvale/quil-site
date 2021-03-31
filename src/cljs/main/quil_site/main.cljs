@@ -131,7 +131,8 @@
    "floating graph"
    "game of life"
    "ten print"
-   "lissajous table"])
+   "lissajous table"
+   "corall"])
 
 (defn get-examples-to-show []
   (let [url (goog.Uri. js/document.URL)

@@ -119,7 +119,9 @@
                             :fireworks {:output-to "public/js/examples/fireworks.js"
                                         :entries #{quil-site.examples.fireworks}}
                             :cluster {:output-to "public/js/examples/cluster.js"
-                                      :entries #{quil-site.examples.cluster}}}}}
+                                      :entries #{quil-site.examples.cluster}}
+							:myleaf {:output-to "public/js/examples/corall.js"
+                                      :entries #{quil-site.examples.corall}}}}}
                 {:source-paths ["src/cljs/editor"]
                  :compiler
                  {:output-to "public/js/editor.js"
